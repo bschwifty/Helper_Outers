@@ -36,4 +36,4 @@ print(formatted_date)
 # make a loop
 # put that date into a variable, format the variable, prepend the filename
 # fancy exit with code
-print(os.getcwd)
+print(os.getcwd())
