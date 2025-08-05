@@ -8,4 +8,7 @@ print("Welcome to date_my_files. I will now prepend each file in this directory 
 " it was created. Press any key to proceed, or ctrl+c to cancel : )")
 
 
+# formatting will work like this:
+# formatted_date = XXX.strftime("%Y%m%d") #TODO: pick a variable name for XXX, needs to be the file creation date
+
 
