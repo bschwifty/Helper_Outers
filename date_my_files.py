@@ -1,3 +1,4 @@
+# A work in progress! More updates coming Aug 2025
 # This script is supposed to help out by renaming all the files in a folder to have their creation
 # date right at the beginning, e.g., "file.txt" becomes "20250731_file.txt".
 # Great way to stay organized!
@@ -36,4 +37,6 @@ print(formatted_date)
 # make a loop
 # put that date into a variable, format the variable, prepend the filename
 # fancy exit with code
-print(os.getcwd())
+cwd = os.getcwd()
+files = os.listdir(cwd)
+print(files)
