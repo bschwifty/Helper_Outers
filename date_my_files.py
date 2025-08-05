@@ -8,7 +8,7 @@ import tty
 import termios
 
 def wait_for_keypress():
-    print("Welcome to date_my_files. I will now prepend each file in this directory with the date\n" \
+    print("\nWelcome to date_my_files. I will now prepend each file in this directory with the date\n" \
 " it was created. Press any key to proceed, or ctrl+c to cancel : )")
     fd = sys.stdin.fileno()
     old_settings = termios.tcgetattr(fd)
