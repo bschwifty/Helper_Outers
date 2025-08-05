@@ -3,6 +3,7 @@
 # Great way to stay organized!
 
 from datetime import datetime
+import os
 import sys
 import tty
 import termios
