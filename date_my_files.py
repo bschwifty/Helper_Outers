@@ -20,7 +20,7 @@ def wait_for_keypress():
     finally:
         termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
 
-# Call the function at the beginning of your script
+# Waiting for keypress first:
 wait_for_keypress()
 
 date=datetime.now()
@@ -29,3 +29,9 @@ date=datetime.now()
 
 formatted_date = date.strftime("%Y%m%d")
 print(formatted_date)
+
+#TODOs:
+# interact with filesystem to get file creation date
+# make a loop
+# put that date into a variable, format the variable, prepend the filename
+# fancy exit with code
